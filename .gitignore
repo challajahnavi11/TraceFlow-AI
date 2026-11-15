@@ -1,0 +1,45 @@
+
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Airflow generated files
+logs/
+airflow.db
+airflow.cfg
+
+# Generated reports (we will select sample reports separately)
+reports/**
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.backup
+# Airflow generated configuration
+config/airflow.cfg
