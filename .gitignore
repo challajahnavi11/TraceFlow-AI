@@ -43,3 +43,7 @@ Thumbs.db
 *.backup
 # Airflow generated configuration
 config/airflow.cfg
+
+src/dashboard/app_backup.py
+src/dashboard/app_before_redesign.py
+src/dashboard/app_previous.py
